@@ -1,4 +1,8 @@
 {
+  "author": "github@jrtucker.com",
+  "bugs": {
+    "url": "https://github.com/action-streams/core/issues"
+  },
   "dependencies": {
     "@most/scheduler": "^1.3.0",
     "most-subject": "^6.0.0"
@@ -12,13 +16,14 @@
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   },
+  "homepage": "https://github.com/action-streams/core#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@action-streams/core",
   "peerDependencies": {
     "@most/core": "^1.6.1",
     "@most/types": "^1.1.0"
   },
-  "license": "MIT",
-  "main": "dist/index.js",
-  "name": "@action-streams/core",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/action-streams/core.git"
